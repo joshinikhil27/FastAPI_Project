@@ -26,6 +26,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: myimage:latest
+          tags: fastapi_github_actions:latest
           
   
