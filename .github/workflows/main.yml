@@ -26,6 +26,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_TAGS }}
+          tags: myimage:latest
           
   
