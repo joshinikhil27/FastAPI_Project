@@ -26,6 +26,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: joshinikhil27/fastapi_github_actions
+          tags: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.IMAGE_NAME }}:${{ secrets.IMAGE_TAG }}
           
   
